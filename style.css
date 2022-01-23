@@ -3,3 +3,24 @@
 body{
  font-family:'Poppins', sans-serif;
 }
+.carousel-item img{
+    height: 582px;
+    width: 1444px;
+    opacity: 0.95;
+}
+.booking-btn{
+    color: #3F87F5;
+    font-size: 16px;
+    font-weight: 700px;
+    width: 168px;
+    background: #FFFFFF;
+    border-radius: 5px;
+}
+.booking-btn:hover{
+    color: #3F87F5;
+    font-size: 16px;
+    font-weight: 700px;
+    width: 168px;
+    background: #FFFFFF;
+    border-radius: 5px;
+}
