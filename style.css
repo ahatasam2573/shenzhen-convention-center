@@ -49,8 +49,26 @@ body{
     font-weight: 700px;
 }
 #bold-card{
+    position: relative;
     background: linear-gradient(cyan,blue);
     box-shadow: 0px 42px 34px rgba(63, 135, 245, 0.25);
     border-radius: 26px;
     padding-top: 35px;
+}
+.div{
+    position: relative;
+}
+.sticker{
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    background: #85c917;
+}
+.sticker p{
+    color: rgb(253, 69, 69);
+    font-weight: bold;
+    font-size: 14px;
 }
