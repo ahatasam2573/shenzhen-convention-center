@@ -74,7 +74,7 @@
                 </div>
                 <div class="carousel-item">
                     <img src="images/pic-1.jpg" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
+                    <div class="carousel-caption d-block d-md-block">
                         <h3 class="fs-1">Top Rank Convention Center</h3>
                         <p class="fw-normal paragraph">This is one of the best convention center in the world.You are so
                             welcome
@@ -87,16 +87,13 @@
                 </div>
                 <div class="carousel-item">
                     <img src="images/pic-2.jpg" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
+                    <div class="carousel-caption d-block d-md-block">
                         <h5 class="fs-1">Explore more to know ShenZhen</h5>
                         <p class="fw-normal paragraph">We provide first class service in world's leading venue.Shenzhen
-                            roughly
-                            follows the
-                            administrative boundaries of Bao'an County, which was established since imperial times. The
-                            southern portion of Bao'an County was seized by the British after the Opium Wars and became
-                            Hong Kong, while the village of Shenzhen was situated on the border. Due to the completion
-                            of a train station that was the last stop on the Mainland Chinese section of the railway
-                            between Guangzhou and Kowloon, Shenzhen's economy grew and became a market town and later a
+                            roughly follows the administrative boundaries of Bao'an County, which was established since
+                            imperial times.Due to the completion of a train station that was the last stop on the
+                            Mainland Chinese section of the railway between Guangzhou and Kowloon, Shenzhen's economy
+                            grew and became a market town and later a
                             city by 1979, absorbing Bao'an County for the next decade.</p>
                         <a class="btn btn-lg booking-btn" target="_blank" href="http://www.shenzhen-world.com/en/"
                             role="button">Book Now</a>
@@ -141,6 +138,22 @@
             </div>
         </section>
         <!-- precious part end -->
+        <!-- toast start -->
+        <button type="button" class="btn btn-primary" id="liveToastBtn">Show live toast</button>
+
+        <div class="position-fixed bottom-0 end-0 p-3" style="z-index: 11">
+            <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                <div class="toast-header">
+                    <img src="icons/Vector.svg" class="rounded me-2" alt="...">
+                    <strong class="me-auto">25% off on next booking</strong>
+                    <small>3 mins ago</small>
+                    <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                </div>
+                <div class="toast-body">
+                    Let's book a seat to enjoy more.
+                </div>
+            </div>
+        </div>
 
         <!-- card part start -->
         <section class="container mb-5">
